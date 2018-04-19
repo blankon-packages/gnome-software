@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.
 Uploaders: @GNOME_TEAM@
 Build-Depends: appstream,
                appstream-util,
-               debhelper (>= 10.4),
+               debhelper (>= 11),
                docbook-xsl,
                gnome-pkg-tools (>= 0.10),
                gsettings-desktop-schemas-dev (>= 3.18),
@@ -16,7 +16,7 @@ Build-Depends: appstream,
                libflatpak-dev (>= 0.6.12) ,
                libfwupd-dev (>= 0.9.7),
                libglib2.0-dev (>= 2.46),
-               libgnome-desktop-3-dev (>= 3.11.1),
+               libgnome-desktop-3-dev (>= 3.18) ,
                libgtk-3-dev (>= 3.20),
                libgtkspell3-3-dev (>= 3.0),
                libgudev-1.0-dev ,
@@ -35,9 +35,9 @@ Build-Depends: appstream,
                valgrind,
                xsltproc
 Standards-Version: 4.1.2
+Vcs-Browser: https://salsa.debian.org/gnome-team/gnome-software
+Vcs-Git: https://salsa.debian.org/gnome-team/gnome-software.git
 Homepage: https://wiki.gnome.org/Apps/Software
-Vcs-Git: https://anonscm.debian.org/git/pkg-gnome/gnome-software.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-gnome/gnome-software.git
 
 Package: gnome-software
 Architecture: any

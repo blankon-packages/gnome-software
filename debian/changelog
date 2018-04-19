@@ -1,8 +1,17 @@
-gnome-software (3.26.3-4blankon1) uluwatu; urgency=medium
+gnome-software (3.26.5-1blankon1) uluwatu; urgency=medium
 
   * New upstream release
+  * remove libgs_plugin_shell-extensions.so
 
- -- antosamalona <ansamsoftdev@gmail.com>  Tue, 19 Dec 2017 14:21:28 +0800
+ -- Hanhan Husna <matcherapy@gmail.com>  Thu, 19 Apr 2018 00:04:55 +0700
+
+gnome-software (3.26.5-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update Vcs fields for migration to https://salsa.debian.org/
+  * Bump debhelper compat to 11
+
+ -- Jeremy Bicha <jbicha@debian.org>  Sat, 20 Jan 2018 07:48:06 -0500
 
 gnome-software (3.26.3-4) unstable; urgency=medium
 
